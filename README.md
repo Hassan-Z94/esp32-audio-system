@@ -8,6 +8,7 @@ A complete wireless speaker system built using ESP32, featuring:
 🔔 System Sounds (Startup / Connect / Disconnect)
 
 📦 Project Structure
+
 esp32-audio-system/
 ├─ README.md
 ├─ controller/
@@ -57,6 +58,7 @@ Controller Side
 ESP32
 TFT Display (ILI9341 or similar)
 XPT2046 Touch Controller
+
 🔌 Wiring (Speaker - I2S Example)
 ESP32 Pin	PCM5102
 26	BCK
