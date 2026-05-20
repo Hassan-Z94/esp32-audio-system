@@ -6,6 +6,7 @@ A complete wireless speaker system built using ESP32, featuring:
 🖥️ Touch LCD Interface
 🎚️ Volume & Play/Pause Control
 🔔 System Sounds (Startup / Connect / Disconnect)
+
 📦 Project Structure
 esp32-audio-system/
 ├─ README.md
@@ -32,7 +33,6 @@ Command Characteristic	abcdefab-1234-5678-1234-abcdefabcdef
 Mode	WRITE (Controller → Speaker)
 🎵 Supported Commands
 P → Toggle Play/Pause
-
 → Volume Up
 → Volume Down
 📱 Controller (ESP32 + TFT + Touch)
