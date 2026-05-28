@@ -6,14 +6,17 @@ A complete wireless speaker system built using ESP32, featuring:
 🖥️ Touch LCD Interface
 🎚️ Volume & Play/Pause Control
 🔔 System Sounds (Startup / Connect / Disconnect)
-
 📦 Project Structure
-
 esp32-audio-system/
 ├─ README.md
 ├─ controller/
 │  └─ ESP32_CONTROLLER/
 │     └─ ESP32_CONTROLLER.ino
+│     └─ FreeSans7pt7b.h
+│     └─ FreeSans10pt7b.h
+│     └─ FreeSansBold7pt7b.h
+│     └─ partitions.csv
+│     └─ splash.h
 ├─ speaker/
 │  └─ ESP32_SPEAKER/
 │     └─ ESP32_SPEAKER.ino
@@ -34,6 +37,7 @@ Command Characteristic	abcdefab-1234-5678-1234-abcdefabcdef
 Mode	WRITE (Controller → Speaker)
 🎵 Supported Commands
 P → Toggle Play/Pause
+
 → Volume Up
 → Volume Down
 📱 Controller (ESP32 + TFT + Touch)
@@ -58,7 +62,6 @@ Controller Side
 ESP32
 TFT Display (ILI9341 or similar)
 XPT2046 Touch Controller
-
 🔌 Wiring (Speaker - I2S Example)
 ESP32 Pin	PCM5102
 26	BCK
